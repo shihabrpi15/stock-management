@@ -9,7 +9,9 @@ namespace StockManagement.Models.EntityModels
     public class StockIn
     {
         public int Id { get; set; }
+
         public string Description { get; set; }
+
         public DateTime StockDate { get; set; }
 
         public List<StockInDetail> StockInDetails { get; set; }
